@@ -1,0 +1,71 @@
+body{margin: 0;
+    font-family: 'Monoton', cursive;
+    color: rgb(224, 10, 10, 0.7)
+}
+
+h1{
+    color: rgba(223, 21, 21, 0.7);
+    font: 64px ;
+}
+li{
+    color:none;
+} 
+a{
+    text-decoration:none;
+    color: rgba(165, 16, 16, 0.7);
+}
+.banner{
+    background-image: url(Music.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+}
+.apresentacao{
+    
+    text-align: center;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin:  0;
+    background-color: rgba(39, 39, 35, 0.4);
+    justify-content: space-between;
+  
+}
+.logo{
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    width: 132px;
+    height: 40px;
+    background-size: 132px  40px;
+    position: absolute;
+
+}
+.ferramentas{
+    display: flex;
+    border: 1px solid #c0c0c0;
+    
+}
+.ferramentas li:hover{
+    padding-left: 15px; text-decoration:none; padding:10px 10px; display:block;
+}
+button{
+    background-color: rgba(170, 53, 18, 0.6);
+    color: white;
+    border:  solid transparent 15px;
+    border-radius: 15px;
+    font-size: 25px;
+}
+button:hover{
+    background:rgb(36, 35, 31); 
+    color:#fff;
+}
+.promocao{
+    text-align: center;
+    border-block:inherit;
+    
+}
+.apg2{
+    background-image: url(musica2.jpeg);
+}
